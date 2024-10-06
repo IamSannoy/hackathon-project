@@ -1,0 +1,65 @@
+.nav{
+  color:white;
+  background-color: red;
+  font-weight: bold;
+  padding: 1%;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainbody{
+  display: inline-block;
+  margin-left: 7cm;
+  margin-right: 7cm;
+  
+}
+.mainbody button{
+  color:white;
+  background-color: red;
+  border-radius: 8%;
+  margin: 1.2cm;
+  align-items: center;
+  justify-content: center;
+  height: 4cm;
+  width: 4cm;
+  padding: 2%;
+}
+.mainbody button:hover{
+  font-weight: bolder;
+}
+#popup {
+  justify-content: center;
+  align-items: center;
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  }
+#popcon {
+  padding: 2%;
+  border-radius: 5%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  height: 8cm;
+  width: 8cm;
+}
+input {
+  text-align: center;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  border-radius: 40px;
+  border: 0;
+  height: 0.5cm;
+  width: 100%;
+}
+i {
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color:red;
+}
